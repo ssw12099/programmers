@@ -15,7 +15,6 @@ class Solution {
             if(c!=-1&&a!=i&&b!=i&&rank[c]>rank[i]&&attendance[i])c=i;
         }
         
-        int answer = 10000*a+100*b+c;
-        return answer;
+        return 10000*a+100*b+c;
     }
 }
