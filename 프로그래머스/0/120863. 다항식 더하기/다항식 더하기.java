@@ -8,7 +8,6 @@ class Solution {
                 else x+=(Integer.parseInt(str[i].replace("x","")));
             }else c+=Integer.parseInt(str[i]);
         }
-        String answer = ((x==0)?"":((x==1)?"x":x+"x"))+((x!=0&&c!=0)?" + ":"")+((c==0)?"":""+c);
-        return answer;
+        return((x==0)?"":((x==1)?"x":x+"x"))+((x!=0&&c!=0)?" + ":"")+((c==0)?"":""+c);
     }
 }
